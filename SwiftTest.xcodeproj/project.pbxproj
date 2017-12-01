@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34323C511FBAECF800BA4F70 /* BaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34323C501FBAECF800BA4F70 /* BaseTabbarController.swift */; };
+		34323C551FBAED8400BA4F70 /* SubTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34323C541FBAED8400BA4F70 /* SubTabbarController.swift */; };
+		34323C5B1FBAEE4D00BA4F70 /* BaseMeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34323C5A1FBAEE4D00BA4F70 /* BaseMeController.swift */; };
+		34323C5D1FBAEE6300BA4F70 /* BaseDiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34323C5C1FBAEE6300BA4F70 /* BaseDiscoverController.swift */; };
+		34323C5F1FBAEE8400BA4F70 /* BaseAddressBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34323C5E1FBAEE8400BA4F70 /* BaseAddressBookController.swift */; };
+		34323C611FBAEE9600BA4F70 /* BaseWeChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34323C601FBAEE9600BA4F70 /* BaseWeChatController.swift */; };
+		34323C641FBAF10F00BA4F70 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34323C631FBAF10F00BA4F70 /* BaseNavigationController.swift */; };
+		34323C661FBAF13500BA4F70 /* SubNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34323C651FBAF13500BA4F70 /* SubNavigationController.swift */; };
+		34323C681FBAF72700BA4F70 /* WeChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34323C671FBAF72700BA4F70 /* WeChatController.swift */; };
+		34323C6A1FBAF76400BA4F70 /* AddressBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34323C691FBAF76400BA4F70 /* AddressBookController.swift */; };
+		34323C6C1FBAF77A00BA4F70 /* DiscoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34323C6B1FBAF77A00BA4F70 /* DiscoverController.swift */; };
+		34323C6E1FBAF78C00BA4F70 /* MeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34323C6D1FBAF78C00BA4F70 /* MeController.swift */; };
+		343FDCCF1FCD026A0003B446 /* MeTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343FDCCE1FCD026A0003B446 /* MeTableViewDelegate.swift */; };
 		344683421F594E790004AB33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344683411F594E790004AB33 /* AppDelegate.swift */; };
 		344683441F594E790004AB33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344683431F594E790004AB33 /* ViewController.swift */; };
 		344683471F594E790004AB33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344683451F594E790004AB33 /* Main.storyboard */; };
@@ -14,6 +27,22 @@
 		3446834C1F594E790004AB33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3446834A1F594E790004AB33 /* LaunchScreen.storyboard */; };
 		344683571F594E790004AB33 /* SwiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344683561F594E790004AB33 /* SwiftTestTests.swift */; };
 		344683621F594E790004AB33 /* SwiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344683611F594E790004AB33 /* SwiftTestUITests.swift */; };
+		347CCCCB1FCE54DD001BDDAD /* NSLockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347CCCCA1FCE54DD001BDDAD /* NSLockController.swift */; };
+		347CCCCD1FCE5535001BDDAD /* ThreadLockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347CCCCC1FCE5535001BDDAD /* ThreadLockController.swift */; };
+		C2B6B5751FBBEFBA0037893D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B6B5741FBBEFBA0037893D /* BaseViewController.swift */; };
+		C2B6B5771FBBF4730037893D /* WeChat.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B6B5761FBBF4730037893D /* WeChat.xcassets */; };
+		C2B6B5791FBBF48C0037893D /* AddressBook.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B6B5781FBBF48C0037893D /* AddressBook.xcassets */; };
+		C2B6B57B1FBBF49F0037893D /* Discover.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B6B57A1FBBF49F0037893D /* Discover.xcassets */; };
+		C2B6B57D1FBBF4A90037893D /* Me.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B6B57C1FBBF4A90037893D /* Me.xcassets */; };
+		C2B6B57F1FBC1D440037893D /* macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B6B57E1FBC1D440037893D /* macros.swift */; };
+		C2B6B5811FBC26D50037893D /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C2B6B5801FBC26D50037893D /* LaunchImage.png */; };
+		C2C5AB461FCFF0E600CEDB80 /* SynchronizedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5AB451FCFF0E600CEDB80 /* SynchronizedController.swift */; };
+		C2C5AB481FCFFD9D00CEDB80 /* NSConditionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5AB471FCFFD9D00CEDB80 /* NSConditionController.swift */; };
+		C2C5AB4A1FCFFDD000CEDB80 /* NSConditionLockCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5AB491FCFFDD000CEDB80 /* NSConditionLockCon.swift */; };
+		C2C5AB4C1FCFFED100CEDB80 /* NSRecursiveLockCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C5AB4B1FCFFED100CEDB80 /* NSRecursiveLockCon.swift */; };
+		C2E94E7A1FD0F5CE00CF21BB /* SemaphoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E94E791FD0F5CE00CF21BB /* SemaphoreController.swift */; };
+		C2E94E7C1FD1517500CF21BB /* POSIXController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E94E7B1FD1517500CF21BB /* POSIXController.swift */; };
+		DCBD3603E2F21654D141CE21 /* Pods_SwiftTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6F2B45F7AD2F1BA97943D9 /* Pods_SwiftTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +63,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13FADA8B8F541E09A59EE8A0 /* Pods-SwiftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTest/Pods-SwiftTest.debug.xcconfig"; sourceTree = "<group>"; };
+		21384C3C18501AD7B325DC3E /* Pods-SwiftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTest/Pods-SwiftTest.release.xcconfig"; sourceTree = "<group>"; };
+		34323C501FBAECF800BA4F70 /* BaseTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabbarController.swift; sourceTree = "<group>"; };
+		34323C541FBAED8400BA4F70 /* SubTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTabbarController.swift; sourceTree = "<group>"; };
+		34323C5A1FBAEE4D00BA4F70 /* BaseMeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseMeController.swift; sourceTree = "<group>"; };
+		34323C5C1FBAEE6300BA4F70 /* BaseDiscoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDiscoverController.swift; sourceTree = "<group>"; };
+		34323C5E1FBAEE8400BA4F70 /* BaseAddressBookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAddressBookController.swift; sourceTree = "<group>"; };
+		34323C601FBAEE9600BA4F70 /* BaseWeChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWeChatController.swift; sourceTree = "<group>"; };
+		34323C631FBAF10F00BA4F70 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		34323C651FBAF13500BA4F70 /* SubNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubNavigationController.swift; sourceTree = "<group>"; };
+		34323C671FBAF72700BA4F70 /* WeChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatController.swift; sourceTree = "<group>"; };
+		34323C691FBAF76400BA4F70 /* AddressBookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookController.swift; sourceTree = "<group>"; };
+		34323C6B1FBAF77A00BA4F70 /* DiscoverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverController.swift; sourceTree = "<group>"; };
+		34323C6D1FBAF78C00BA4F70 /* MeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeController.swift; sourceTree = "<group>"; };
+		343FDCCE1FCD026A0003B446 /* MeTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeTableViewDelegate.swift; sourceTree = "<group>"; };
 		3446833E1F594E790004AB33 /* SwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		344683411F594E790004AB33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		344683431F594E790004AB33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +91,22 @@
 		3446835D1F594E790004AB33 /* SwiftTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		344683611F594E790004AB33 /* SwiftTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestUITests.swift; sourceTree = "<group>"; };
 		344683631F594E790004AB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347CCCCA1FCE54DD001BDDAD /* NSLockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLockController.swift; sourceTree = "<group>"; };
+		347CCCCC1FCE5535001BDDAD /* ThreadLockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadLockController.swift; sourceTree = "<group>"; };
+		4D6F2B45F7AD2F1BA97943D9 /* Pods_SwiftTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B6B5741FBBEFBA0037893D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C2B6B5761FBBF4730037893D /* WeChat.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WeChat.xcassets; sourceTree = "<group>"; };
+		C2B6B5781FBBF48C0037893D /* AddressBook.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AddressBook.xcassets; sourceTree = "<group>"; };
+		C2B6B57A1FBBF49F0037893D /* Discover.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Discover.xcassets; sourceTree = "<group>"; };
+		C2B6B57C1FBBF4A90037893D /* Me.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Me.xcassets; sourceTree = "<group>"; };
+		C2B6B57E1FBC1D440037893D /* macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = macros.swift; sourceTree = "<group>"; };
+		C2B6B5801FBC26D50037893D /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		C2C5AB451FCFF0E600CEDB80 /* SynchronizedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchronizedController.swift; sourceTree = "<group>"; };
+		C2C5AB471FCFFD9D00CEDB80 /* NSConditionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSConditionController.swift; sourceTree = "<group>"; };
+		C2C5AB491FCFFDD000CEDB80 /* NSConditionLockCon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSConditionLockCon.swift; sourceTree = "<group>"; };
+		C2C5AB4B1FCFFED100CEDB80 /* NSRecursiveLockCon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSRecursiveLockCon.swift; sourceTree = "<group>"; };
+		C2E94E791FD0F5CE00CF21BB /* SemaphoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemaphoreController.swift; sourceTree = "<group>"; };
+		C2E94E7B1FD1517500CF21BB /* POSIXController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POSIXController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCBD3603E2F21654D141CE21 /* Pods_SwiftTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +135,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34323C521FBAED1C00BA4F70 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C2B6B5801FBC26D50037893D /* LaunchImage.png */,
+				344683451F594E790004AB33 /* Main.storyboard */,
+				3446834A1F594E790004AB33 /* LaunchScreen.storyboard */,
+				344683481F594E790004AB33 /* Assets.xcassets */,
+				C2B6B5761FBBF4730037893D /* WeChat.xcassets */,
+				C2B6B5781FBBF48C0037893D /* AddressBook.xcassets */,
+				C2B6B57A1FBBF49F0037893D /* Discover.xcassets */,
+				C2B6B57C1FBBF4A90037893D /* Me.xcassets */,
+				3446834D1F594E790004AB33 /* Info.plist */,
+				C2B6B57E1FBC1D440037893D /* macros.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		34323C531FBAED3E00BA4F70 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				34323C501FBAECF800BA4F70 /* BaseTabbarController.swift */,
+				34323C541FBAED8400BA4F70 /* SubTabbarController.swift */,
+				34323C631FBAF10F00BA4F70 /* BaseNavigationController.swift */,
+				34323C651FBAF13500BA4F70 /* SubNavigationController.swift */,
+				C2B6B5741FBBEFBA0037893D /* BaseViewController.swift */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		34323C561FBAEDA800BA4F70 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				34323C601FBAEE9600BA4F70 /* BaseWeChatController.swift */,
+				34323C671FBAF72700BA4F70 /* WeChatController.swift */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+		34323C571FBAEDC900BA4F70 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				34323C5E1FBAEE8400BA4F70 /* BaseAddressBookController.swift */,
+				34323C691FBAF76400BA4F70 /* AddressBookController.swift */,
+			);
+			path = AddressBook;
+			sourceTree = "<group>";
+		};
+		34323C581FBAEDFB00BA4F70 /* Disscover */ = {
+			isa = PBXGroup;
+			children = (
+				34323C5C1FBAEE6300BA4F70 /* BaseDiscoverController.swift */,
+				34323C6B1FBAF77A00BA4F70 /* DiscoverController.swift */,
+			);
+			path = Disscover;
+			sourceTree = "<group>";
+		};
+		34323C591FBAEE3300BA4F70 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				347CCCC91FCE54AF001BDDAD /* ThreadLockControl */,
+				34323C5A1FBAEE4D00BA4F70 /* BaseMeController.swift */,
+				343FDCCE1FCD026A0003B446 /* MeTableViewDelegate.swift */,
+				34323C6D1FBAF78C00BA4F70 /* MeController.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		34323C621FBAF08000BA4F70 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				344683411F594E790004AB33 /* AppDelegate.swift */,
+				344683431F594E790004AB33 /* ViewController.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
 		344683351F594E790004AB33 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +218,8 @@
 				344683551F594E790004AB33 /* SwiftTestTests */,
 				344683601F594E790004AB33 /* SwiftTestUITests */,
 				3446833F1F594E790004AB33 /* Products */,
+				7834FB43A02610F2F75ECC94 /* Pods */,
+				5261DB811882670C1269C68F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +236,13 @@
 		344683401F594E790004AB33 /* SwiftTest */ = {
 			isa = PBXGroup;
 			children = (
-				344683411F594E790004AB33 /* AppDelegate.swift */,
-				344683431F594E790004AB33 /* ViewController.swift */,
-				344683451F594E790004AB33 /* Main.storyboard */,
-				344683481F594E790004AB33 /* Assets.xcassets */,
-				3446834A1F594E790004AB33 /* LaunchScreen.storyboard */,
-				3446834D1F594E790004AB33 /* Info.plist */,
+				34323C621FBAF08000BA4F70 /* Appdelegate */,
+				34323C531FBAED3E00BA4F70 /* BaseController */,
+				34323C561FBAEDA800BA4F70 /* WeChat */,
+				34323C571FBAEDC900BA4F70 /* AddressBook */,
+				34323C581FBAEDFB00BA4F70 /* Disscover */,
+				34323C591FBAEE3300BA4F70 /* Me */,
+				34323C521FBAED1C00BA4F70 /* Resource */,
 			);
 			path = SwiftTest;
 			sourceTree = "<group>";
@@ -125,6 +265,38 @@
 			path = SwiftTestUITests;
 			sourceTree = "<group>";
 		};
+		347CCCC91FCE54AF001BDDAD /* ThreadLockControl */ = {
+			isa = PBXGroup;
+			children = (
+				347CCCCC1FCE5535001BDDAD /* ThreadLockController.swift */,
+				347CCCCA1FCE54DD001BDDAD /* NSLockController.swift */,
+				C2C5AB471FCFFD9D00CEDB80 /* NSConditionController.swift */,
+				C2C5AB491FCFFDD000CEDB80 /* NSConditionLockCon.swift */,
+				C2C5AB4B1FCFFED100CEDB80 /* NSRecursiveLockCon.swift */,
+				C2C5AB451FCFF0E600CEDB80 /* SynchronizedController.swift */,
+				C2E94E791FD0F5CE00CF21BB /* SemaphoreController.swift */,
+				C2E94E7B1FD1517500CF21BB /* POSIXController.swift */,
+			);
+			path = ThreadLockControl;
+			sourceTree = "<group>";
+		};
+		5261DB811882670C1269C68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D6F2B45F7AD2F1BA97943D9 /* Pods_SwiftTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7834FB43A02610F2F75ECC94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13FADA8B8F541E09A59EE8A0 /* Pods-SwiftTest.debug.xcconfig */,
+				21384C3C18501AD7B325DC3E /* Pods-SwiftTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +304,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 344683661F594E790004AB33 /* Build configuration list for PBXNativeTarget "SwiftTest" */;
 			buildPhases = (
+				2E854A7A6F6362CC3B49F3A2 /* [CP] Check Pods Manifest.lock */,
 				3446833A1F594E790004AB33 /* Sources */,
 				3446833B1F594E790004AB33 /* Frameworks */,
 				3446833C1F594E790004AB33 /* Resources */,
+				132EA1E2F52E3A821FF563AA /* [CP] Embed Pods Frameworks */,
+				11C45031C83791A1B7043D36 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +368,7 @@
 				TargetAttributes = {
 					3446833D1F594E790004AB33 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y6D28PD5ZR;
 						ProvisioningStyle = Automatic;
 					};
 					344683511F594E790004AB33 = {
@@ -234,7 +410,12 @@
 			files = (
 				3446834C1F594E790004AB33 /* LaunchScreen.storyboard in Resources */,
 				344683491F594E790004AB33 /* Assets.xcassets in Resources */,
+				C2B6B57B1FBBF49F0037893D /* Discover.xcassets in Resources */,
+				C2B6B57D1FBBF4A90037893D /* Me.xcassets in Resources */,
+				C2B6B5811FBC26D50037893D /* LaunchImage.png in Resources */,
+				C2B6B5791FBBF48C0037893D /* AddressBook.xcassets in Resources */,
 				344683471F594E790004AB33 /* Main.storyboard in Resources */,
+				C2B6B5771FBBF4730037893D /* WeChat.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +435,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11C45031C83791A1B7043D36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTest/Pods-SwiftTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		132EA1E2F52E3A821FF563AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTest/Pods-SwiftTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTest/Pods-SwiftTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E854A7A6F6362CC3B49F3A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3446833A1F594E790004AB33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34323C5B1FBAEE4D00BA4F70 /* BaseMeController.swift in Sources */,
+				34323C5F1FBAEE8400BA4F70 /* BaseAddressBookController.swift in Sources */,
+				347CCCCD1FCE5535001BDDAD /* ThreadLockController.swift in Sources */,
+				34323C611FBAEE9600BA4F70 /* BaseWeChatController.swift in Sources */,
+				34323C681FBAF72700BA4F70 /* WeChatController.swift in Sources */,
 				344683441F594E790004AB33 /* ViewController.swift in Sources */,
+				C2B6B5751FBBEFBA0037893D /* BaseViewController.swift in Sources */,
+				343FDCCF1FCD026A0003B446 /* MeTableViewDelegate.swift in Sources */,
+				C2E94E7C1FD1517500CF21BB /* POSIXController.swift in Sources */,
+				34323C661FBAF13500BA4F70 /* SubNavigationController.swift in Sources */,
 				344683421F594E790004AB33 /* AppDelegate.swift in Sources */,
+				C2C5AB4C1FCFFED100CEDB80 /* NSRecursiveLockCon.swift in Sources */,
+				347CCCCB1FCE54DD001BDDAD /* NSLockController.swift in Sources */,
+				C2C5AB4A1FCFFDD000CEDB80 /* NSConditionLockCon.swift in Sources */,
+				34323C641FBAF10F00BA4F70 /* BaseNavigationController.swift in Sources */,
+				34323C5D1FBAEE6300BA4F70 /* BaseDiscoverController.swift in Sources */,
+				34323C6C1FBAF77A00BA4F70 /* DiscoverController.swift in Sources */,
+				34323C551FBAED8400BA4F70 /* SubTabbarController.swift in Sources */,
+				C2C5AB461FCFF0E600CEDB80 /* SynchronizedController.swift in Sources */,
+				C2B6B57F1FBC1D440037893D /* macros.swift in Sources */,
+				34323C6E1FBAF78C00BA4F70 /* MeController.swift in Sources */,
+				C2E94E7A1FD0F5CE00CF21BB /* SemaphoreController.swift in Sources */,
+				34323C511FBAECF800BA4F70 /* BaseTabbarController.swift in Sources */,
+				C2C5AB481FCFFD9D00CEDB80 /* NSConditionController.swift in Sources */,
+				34323C6A1FBAF76400BA4F70 /* AddressBookController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,25 +672,35 @@
 		};
 		344683671F594E790004AB33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13FADA8B8F541E09A59EE8A0 /* Pods-SwiftTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftTest/Info.plist;
+				DEVELOPMENT_TEAM = Y6D28PD5ZR;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftTest/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZX.SwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REEXPORTED_LIBRARY_PATHS = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		344683681F594E790004AB33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21384C3C18501AD7B325DC3E /* Pods-SwiftTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SwiftTest/Info.plist;
+				DEVELOPMENT_TEAM = Y6D28PD5ZR;
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftTest/Resource/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZX.SwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				REEXPORTED_LIBRARY_PATHS = "";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -507,6 +777,7 @@
 				344683681F594E790004AB33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		344683691F594E790004AB33 /* Build configuration list for PBXNativeTarget "SwiftTestTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +786,7 @@
 				3446836B1F594E790004AB33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3446836C1F594E790004AB33 /* Build configuration list for PBXNativeTarget "SwiftTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +795,7 @@
 				3446836E1F594E790004AB33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
