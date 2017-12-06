@@ -29,6 +29,7 @@
 		344683621F594E790004AB33 /* SwiftTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344683611F594E790004AB33 /* SwiftTestUITests.swift */; };
 		347CCCCB1FCE54DD001BDDAD /* NSLockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347CCCCA1FCE54DD001BDDAD /* NSLockController.swift */; };
 		347CCCCD1FCE5535001BDDAD /* ThreadLockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347CCCCC1FCE5535001BDDAD /* ThreadLockController.swift */; };
+		C2708CAA1FD63AAD007E3B61 /* notificationIdentify.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2708CA91FD63AAD007E3B61 /* notificationIdentify.swift */; };
 		C2B6B5751FBBEFBA0037893D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B6B5741FBBEFBA0037893D /* BaseViewController.swift */; };
 		C2B6B5771FBBF4730037893D /* WeChat.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B6B5761FBBF4730037893D /* WeChat.xcassets */; };
 		C2B6B5791FBBF48C0037893D /* AddressBook.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B6B5781FBBF48C0037893D /* AddressBook.xcassets */; };
@@ -94,6 +95,7 @@
 		347CCCCA1FCE54DD001BDDAD /* NSLockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLockController.swift; sourceTree = "<group>"; };
 		347CCCCC1FCE5535001BDDAD /* ThreadLockController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadLockController.swift; sourceTree = "<group>"; };
 		4D6F2B45F7AD2F1BA97943D9 /* Pods_SwiftTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2708CA91FD63AAD007E3B61 /* notificationIdentify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notificationIdentify.swift; sourceTree = "<group>"; };
 		C2B6B5741FBBEFBA0037893D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		C2B6B5761FBBF4730037893D /* WeChat.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WeChat.xcassets; sourceTree = "<group>"; };
 		C2B6B5781FBBF48C0037893D /* AddressBook.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AddressBook.xcassets; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				C2B6B57C1FBBF4A90037893D /* Me.xcassets */,
 				3446834D1F594E790004AB33 /* Info.plist */,
 				C2B6B57E1FBC1D440037893D /* macros.swift */,
+				C2708CA91FD63AAD007E3B61 /* notificationIdentify.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -510,6 +513,7 @@
 				C2C5AB4C1FCFFED100CEDB80 /* NSRecursiveLockCon.swift in Sources */,
 				347CCCCB1FCE54DD001BDDAD /* NSLockController.swift in Sources */,
 				C2C5AB4A1FCFFDD000CEDB80 /* NSConditionLockCon.swift in Sources */,
+				C2708CAA1FD63AAD007E3B61 /* notificationIdentify.swift in Sources */,
 				34323C641FBAF10F00BA4F70 /* BaseNavigationController.swift in Sources */,
 				34323C5D1FBAEE6300BA4F70 /* BaseDiscoverController.swift in Sources */,
 				34323C6C1FBAF77A00BA4F70 /* DiscoverController.swift in Sources */,

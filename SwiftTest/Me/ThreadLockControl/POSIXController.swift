@@ -57,7 +57,7 @@ class POSIXController: ThreadLockController {
     }
     
         
-    /*
+    /* o
          Swift 的deinit函数实际的作用和OC中的dealloc函数是一样的
          对象的释放  通知  代理等等的处理都是在这里处理的
          

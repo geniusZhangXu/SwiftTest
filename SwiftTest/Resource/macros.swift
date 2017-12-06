@@ -17,6 +17,7 @@ func RGBCOLOR(_ r:CGFloat,_ g:CGFloat,_ b:CGFloat , _ a:CGFloat) -> UIColor  {
 
 // 标签栏的颜色
 let DEFAULT_TABBAR_COLOC = RGBCOLOR(2.0,187.0,0.0,1.0)
-
-
-// 
+// 屏幕宽
+let SCREENWIDTH   =  UIScreen.main.bounds.size.width
+// 屏幕高
+let SCREENHEIGHT  =  UIScreen.main.bounds.size.height
